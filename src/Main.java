@@ -27,11 +27,11 @@ public class Main {
         private static void printCalculate(int distance){
             int start = 20;
             int step = 40;
-            int result = 1;
+            int result1 = 1;
             if (distance >= start){
-                result = Math.abs(distance-start)/step+2;
+                result1 = Math.abs(distance-start)/step+2;
             }
-            System.out.println("Потребуется дней: " + result);
+            System.out.println("Потребуется дней: " + result1);
 
         }
 }
